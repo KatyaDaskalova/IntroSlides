@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IntroSliders</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome!</string>
+    <string name="slide_1_desc_1">Your self-driving ride will begin shortly</string>
+    <string name="slide_1_name">Ayman</string>
+    <string name="slide_1_content_description">car picture</string>
+
+    <string name="slide_2_title">Welcome!</string>
+    <string name="slide_2_desc_1">Please wear your seatbelt</string>
+    <string name="slide_2_content_description">seatbelt picture</string>
+
+    <string name="slide_3_title">Welcome!</string>
+    <string name="slide_3_desc_1">Please do not take photos or record video while in the vehicle</string>
+    <string name="slide_3_content_description">norecording picture</string>
+
+    <string name="slide_4_title">Welcome!</string>
+    <string name="slide_4_desc_1">There will be some communication between the safety driver and safety engineer. This is normal.</string>
+    <string name="slide_4_content_description">communication picture</string>
+
+    <string name="slide_5_title">Welcome!</string>
+    <string name="slide_5_desc_1">Please do not interact with in-car personnel during the ride, they have to be 100% focused on the task of monitoring the car.</string>
+    <string name="slide_5_desc_2">The only exception to this is:</string>
+    <string name="slide_5_desc_3">If you feel uncomfortable or unsafe or want to stop the ride at any point for any reason, immediately let the in-car personnel know</string>
+    <string name="slide_5_content_description">nointeraction picture</string>
+
+    <string name="slide_6_desc_1">We are about to leave. Do you have any </string>
+    <string name="slide_6_desc_2">questions or concerns?</string>
+    <string name="slide_6_desc_3">START RIDE</string>
+    <string name="slide_6_content_description">car2 picture</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

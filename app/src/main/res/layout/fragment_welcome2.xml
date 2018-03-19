@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:contentDescription="@string/slide_5_content_description"
+        android:src="@drawable/nointeraction" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="640dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginEnd="107dp"
+        android:layout_marginTop="41dp"
+        android:lines="8"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_desc"
+        tools:textAlignment="center" />
+
+
+    <!--  <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:text=""
+          android:textColor="@android:color/white"
+          android:textSize="@dimen/slide_desc"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView3"/> -->
+
+    <!--  <TextView
+          android:id="@+id/textView5"
+          android:layout_width="640dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:lines="3"
+          android:text=""
+          android:textColor="@android:color/white"
+          android:textSize="@dimen/slide_desc"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView4"
+          tools:textAlignment="center"/>  -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:text="Start Address"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_address"
+        tools:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/textView8"
+        android:text="Dest. Address"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_address"
+        tools:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="21dp"
+        android:text="Dest. Address 2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_address"
+        tools:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/route" />
+
+</RelativeLayout>
